@@ -164,44 +164,28 @@ nav ul li a {
 
 /* Footer */
 
-#footer {
+footer {
+  width: 100%;
+  height: 100%;
   background: rgb(0, 0, 0);
-}
-
-#footer { 
-  padding:40px 20px;
-  border-radius: 10px;
-}
-
-#conteneur-footer
-{
-  display: flex;
-  justify-content: center;
-  text-align: justify;
-  align-items: center;
   color: #fff;
-  flex-wrap: wrap;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  text-align: center;
+  margin: 5px;
+  padding: 10px;
 }
 
-#conteneur-footer a {
+footer a {
   text-decoration: none;
-  color: #b3ff00;
+  color: #ff9f0e;
   -webkit-transition: all .3s linear;
   -o-transition: all .3s linear;
   transition: all .3s linear;
 }
 
-#conteneur-footer a:hover {
+footer a:hover {
   text-decoration: none;
-  color: #ff0000;
-}
-
-.element
-{
-    margin: auto;
-}
-
-.titreFooter {
-  font-size: 30px;
-  text-decoration: underline red;
+  color: #ff6600;
 }
