@@ -8,7 +8,7 @@ body {
 }
 
 #page { 
-  max-width:100vh;
+  max-width:100%;
   margin:0 auto;
   padding:0 2px;
 }
