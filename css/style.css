@@ -189,3 +189,25 @@ footer a:hover {
   text-decoration: none;
   color: #ff6600;
 }
+
+/* Contact */
+
+.telemail {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  text-decoration: none;
+  padding: 2px;
+}
+
+.telemail a {
+  text-decoration: none;
+  color: #ff9f0e;
+  -webkit-transition: all .3s linear;
+  -o-transition: all .3s linear;
+  transition: all .3s linear;
+}
+
+.telemail a:hover {
+  text-decoration: none;
+  color: #ff6600;
+}
