@@ -162,34 +162,6 @@ nav ul li a {
   }
 }
 
-
-/*  Diaporama */
-
-.diaporamaPhoto {
-  width: 576px;
-  height: 432px;
-  margin: 50px auto;
-  box-shadow: 0px 15px 10px -5px #777;
-  background-color: #EDEDED;
-  background-size: contain;
-  animation: fondu 15s ease-in-out infinite both;
-}
-.conteneurPhoto {
-  max-width: 576px;
-  margin: 50px auto;
-}
-
-}
-.diaporamaPhoto:hover {
-  animation-play-state: paused;
-}
-@keyframes fondu{
-  0%{background-image: url("../images/full_image_1.jpg");}
-  33.33%{background-image: url("../images/man.jpg")}
-  66.67%{background-image: url("../images/mental_health.jpg");}
-  100%{background-image: url("../images/full_image_1.jpg");}
-}
-
 /* Footer */
 
 #footer {
