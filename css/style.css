@@ -165,7 +165,7 @@ nav ul li a {
 
 /*  Diaporama */
 
-.d1{
+.diaporamaPhoto {
   width: 576px;
   height: 432px;
   margin: 50px auto;
@@ -174,13 +174,13 @@ nav ul li a {
   background-size: contain;
   animation: fondu 15s ease-in-out infinite both;
 }
-.conteneur1{
+.conteneurPhoto {
   max-width: 576px;
   margin: 50px auto;
 }
 
 }
-.d1:hover, .d2:hover{
+.diaporamaPhoto:hover {
   animation-play-state: paused;
 }
 @keyframes fondu{
@@ -188,4 +188,48 @@ nav ul li a {
   33.33%{background-image: url("../images/man.jpg")}
   66.67%{background-image: url("../images/mental_health.jpg");}
   100%{background-image: url("../images/full_image_1.jpg");}
+}
+
+/* Footer */
+
+#footer {
+  background: rgb(0, 0, 0);
+}
+
+#footer { 
+  padding:40px 20px;
+  border-radius: 10px;
+}
+
+#conteneur-footer
+{
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+  align-items: center;
+  color: #fff;
+  flex-wrap: wrap;
+}
+
+#conteneur-footer a {
+  text-decoration: none;
+  color: #b3ff00;
+  -webkit-transition: all .3s linear;
+  -o-transition: all .3s linear;
+  transition: all .3s linear;
+}
+
+#conteneur-footer a:hover {
+  text-decoration: none;
+  color: #ff0000;
+}
+
+.element
+{
+    margin: auto;
+}
+
+.titreFooter {
+  font-size: 30px;
+  text-decoration: underline red;
 }
