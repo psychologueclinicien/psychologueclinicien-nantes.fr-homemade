@@ -26,6 +26,35 @@ body {
   width: 85%;
 }
 
+@media screen and (max-width: 1920px) and (min-width: 900px) {
+  .paragrapheStandard {
+    text-align: justify;
+    margin: 4vh auto;
+    font-size: 30px;
+    line-height: 35px;
+    width: 75%;
+  }
+}
+
+.paragrapheCenter {
+  text-align: center;
+  margin: 4vh auto;
+  font-size: 20px;
+  line-height: 30px;
+  width: 85%;
+}
+
+@media screen and (max-width: 1920px) and (min-width: 900px) {
+  .paragrapheCenter {
+    text-align: center;
+    margin: 4vh auto;
+    font-size: 30px;
+    line-height: 35px;
+    width: 75%;
+  }
+}
+
+
 /* Image Responsive */
 
 .image-responsive {
@@ -38,7 +67,7 @@ body {
 .map-responsive {
   overflow:hidden;
   padding-bottom:56.25%;
-  position:relative;>
+  position:relative;
   height:0;
   z-index: 1;
 }
@@ -199,7 +228,6 @@ footer {
   height: 100%;
   background: rgb(0, 0, 0);
   color: #fff;
-  border-radius: 5px;
   text-decoration: none;
   text-align: center;
 }
